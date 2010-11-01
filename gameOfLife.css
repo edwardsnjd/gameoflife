@@ -1,0 +1,33 @@
+.row {
+	position: relative;
+	height: 12px;
+	clear: left;
+}
+
+.cell {
+	display: block;
+	float: left;
+	width: 10px;
+	height: 10px;
+	border: 1px solid #aaa;
+
+	background-color: #9999ff;	/* dead colour */
+}
+
+.alive {
+	background-color: #00ff00; /* alive colour */
+}
+
+#board {
+	position: relative;
+	clear: both;
+}
+
+#controls {
+	position: relative;
+	clear: both;
+}
+
+#graph {
+	clear: both;
+}
